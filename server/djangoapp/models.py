@@ -10,8 +10,7 @@ class CarMake(models.Model):
     CAR_TYPES = [
         ('SEDAN', 'Sedan'),
         ('SUV', 'SUV'),
-        ('WAGON', 'Wagon'),
-        
+        ('WAGON', 'Wagon'),   
     ]
 
     def __str__(self):
